@@ -1,37 +1,21 @@
+
 # lotin-kirill-tarjimon
-### latin-cyrillic v/s cyrillic-latin converter
 
-[go to Github link](https://github.com/Uroljon/lotin-kirill-for-npm)
----
-[go to a Website](https://uroljon.github.io/Khidirboev/projects/latin_cyrill/latin_cyrill.html)
+Ushbu kutubxona orqali stringni lotindan kirillga yoki aksincha kirilldan lotinga o'girsa bo'ladi.  
 
-### Lotin alifbosidan kirill alifbosiga o'tkazish endi muammo emas. lotin-kirill-tarjimon paketidan foydalaning
-- qulay interfeys
-- 2 tagina funksiya
+### O'rnatish 
+package.json filini ochib, dependencies bo'limiga: \
+```"lotin-kirill-tarjimon": "github:ilhomparisi/lotin-kirill-uz"``` 
+qo'shing.  
+keyin ```npm i``` berib o'rnatib oling. 
 
-## Xususiyatlari
-- **kirillga(lotinchaText)** funksiyasiga "string" turidagi lotin alifbosidagi matnni argument sifatida jo'nating. Sizga kirill alifbosiga o'girilgan javob qaytaradi.
-- **lotinga(kirillchaText)** funksiyasiga "string" turidagi kirill alifbosidagi matnni argument sifatida jo'nating. Sizga lotin alifbosiga o'girilgan javob qaytaradi.
+### Ishlatish
+Birinchi import qivolamiz:
 
-## O'rnatish
-lotin-kirill-tarjimon [Node.js](https://nodejs.org/) v10+ ni talab qiladi..
+```const {lotinga, kirillga } = require('lotin-kirill-tarjimon');```
 
-```javascript
-npm i lotin-kirill-tarjimon
+Keyin funksiya shaklida chaqirseyz bo'ladi:
+``` 
+    let natija = kirillga("Uz meva uzum, sanoat holding kompaniyasi");
+    console.log(natija); //уз мева узум, саноат ҳолдинг компанияси
 ```
-
-Loyihamizda esa HTML faylimizga javaScript faylini ulaymiz: 
-
-```html
-<script src="./node_modules/lotin-kirill-tarjimon/main.js"></script>
-```
-
-> Izoh: https://uroljon.github.io/Khidirboev/projects/latin_cyrill/latin_cyrill.html tarjimon sayti. Shu sayt ham bir xil natija beradi. 
-
-## License
-ISC
-
-O'zbekona npm, bahramand bo'ling :)
-
-   [dill]: <https://github.com/Uroljon/lotin-kirill-for-npmr>
-   [git-repo-url]: <https://github.com/Uroljon/lotin-kirill-for-npm.git>
