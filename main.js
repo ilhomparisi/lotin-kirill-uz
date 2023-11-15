@@ -220,3 +220,7 @@ function lotinga(CyrillicMessage) {
     /*natijani return qiladi */
     return LatinTranslated;
 };
+
+module.export = {
+    kirillga, lotinga
+}
