@@ -221,6 +221,6 @@ function lotinga(CyrillicMessage) {
     return LatinTranslated;
 };
 
-module.export = {
+module.exports = {
     kirillga, lotinga
 }
