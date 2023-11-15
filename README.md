@@ -1,5 +1,5 @@
 
-# lotin-kirill-tarjimon
+# lotin-kirill-uz
 
 Ushbu kutubxona orqali stringni lotindan kirillga yoki aksincha kirilldan lotinga o'girsa bo'ladi.  
 
