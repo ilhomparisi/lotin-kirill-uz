@@ -10,7 +10,7 @@ Komandasini amalga oshiring
 ### Ishlatish
 Birinchi import qivolamiz:
 
-```const {lotinga, kirillga } = require('lotin-kirill-tarjimon');```
+```const {lotinga, kirillga } = require('lotin-kirill-uz');```
 
 Keyin funksiya shaklida chaqirib ishlatseyz bo'ladi:
 ``` 
