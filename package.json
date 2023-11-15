@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Uroljon/lotin-kirill-for-npm.git"
+    "url": "git+https://github.com/ilhomparisi/lotin-kirill-uz.git"
   },
   "keywords": [
     "latin",
@@ -22,7 +22,7 @@
   "author": "Uroljon Khidirboev",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Uroljon/lotin-kirill-for-npm/issues"
+    "url": "https://github.com/ilhomparisi/lotin-kirill-uz/issues"
   },
-  "homepage": "https://github.com/Uroljon/lotin-kirill-for-npm#readme"
+  "homepage": "https://github.com/ilhomparisi/lotin-kirill-uz#readme"
 }
